@@ -1,0 +1,16 @@
+{
+  "manifest": {
+    "name": "nginx-codius-pod",
+    "version": "1.0.0",
+    "machine": "small",
+    "port": "80",
+    "containers": [{
+      "id": "app",
+      "image": "nginx@sha256:d0a8828cccb73397acb0073bf34f4d7d8aa315263f1e7806bf8c55d8ac139d5f",
+      "command": ["nginx", "-g", "daemon off;"],
+      "workdir": "/root",
+      "environment": {
+      }
+    }]
+  }
+}
