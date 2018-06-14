@@ -1,0 +1,12 @@
+{
+  "manifest": {
+    "name": "quake3-codius-pod",
+    "version": "1.0.0",
+    "machine": "small",
+    "port": "27960",
+    "containers": [{
+      "id": "app",
+      "image": "feraltc/quakejs-codius@sha256:be48c9fc47ea5defd1d5f9a039c47b826a833c849c3e7e564e8ad216fae51632"
+    }]
+  }
+}
