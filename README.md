@@ -16,6 +16,7 @@ Standard bootstrap of React.
 ### quakejs-codius
 
 Runs a Javascript implementation of a Quake Server based on [quakejs](https://github.com/inolen/quakejs).
+> `manifest/quakejs-codius.json`
 
 ### host-list
 
