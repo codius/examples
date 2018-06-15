@@ -13,6 +13,10 @@ Default nginx server.
 Standard bootstrap of React.
 > `manifest/create-react-app-manifest.json`
 
+### quakejs-codius
+
+Runs a Javascript implementation of a Quake Server based on [quakejs](https://github.com/inolen/quakejs).
+
 ### host-list
 
 Crawls the codius peer list and displays the peers it finds. It's a good test
