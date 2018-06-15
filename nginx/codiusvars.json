@@ -1,3 +1,6 @@
 {
-	"vars": {}
+	"vars": {
+		"public": {},
+		"private": {}
+	}
 }
