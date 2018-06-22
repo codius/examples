@@ -3,6 +3,11 @@
 
 ## Manifest Examples
 
+### codius-spsp
+
+Codius contract SPSP example of receiving and sending money.
+> `manifest/codius-spsp-manifest.json`
+
 ### nginx
 
 Default nginx server.
