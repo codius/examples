@@ -1,5 +1,7 @@
-# Codius Examples
-> Examples pods for the Codius Project
+# codius-examples
+> Examples for the Codius Project
+
+## Manifest Examples
 
 ### codius-spsp
 
@@ -8,21 +10,26 @@ Codius contract SPSP example of receiving and sending money.
 
 ### nginx
 
-A default nginx server.
+Default nginx server.
+> `manifest/nginx-manifest.json`
 
-### react-app
+### create-react-app
 
-A standard bootstrap app for React.
+Standard bootstrap of React.
+> `manifest/create-react-app-manifest.json`
 
-### quake
+### quakejs-codius
 
-A JavaScript Quake Server based on [quakejs](https://github.com/inolen/quakejs).
+Runs a Javascript implementation of a Quake Server based on [quakejs](https://github.com/inolen/quakejs).
+> `manifest/quakejs-codius.json`
 
 ### host-list
 
-A pod that crawls the codius peer list and displays the peers it finds. It's a good test
+Crawls the codius peer list and displays the peers it finds. It's a good test
 to make sure your network is configured properly. [Code can be viewed
 here](https://github.com/sharafian/host-list-pod).
+
+> `manifest/host-list.json`
 
 ## License
 
