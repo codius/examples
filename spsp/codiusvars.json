@@ -1,0 +1,10 @@
+{
+  "vars": {
+    "public": {
+        "PAYMENT_POINTER": {
+          "value": "$sharafian.com"
+        }
+    },
+    "private": {}
+  }
+}

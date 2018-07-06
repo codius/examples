@@ -19,6 +19,10 @@ A pod that crawls the codius peer list and displays the peers it finds. It's a g
 to make sure your network is configured properly. [Code can be viewed
 here](https://github.com/sharafian/host-list-pod).
 
+### spsp
+
+Codius contract SPSP example of receiving and sending money.
+
 ## License
 
 Apache-2.0
