@@ -1,6 +1,8 @@
 # Codius Examples
 > Examples pods for the Codius Project
 
+For use with the [Codius CLI 3.0.x+](https://github.com/codius/codius)
+
 ### nginx
 
 A default nginx server.
