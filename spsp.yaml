@@ -1,0 +1,14 @@
+apiVersion: core.codius.org/v1alpha1
+kind: Service
+metadata:
+  name: codius-spsp
+spec:
+  containers:
+  - name: app
+    image: sharafian/ilp-spsp-server@sha256:c595a6776b57b3ccb681ef29b4aa9ffa5dbc84fd73ba38fef78356bfcc4496db
+  - name: spend
+    image: sharafian/ilp-spsp-spender@sha256:a0456ac1f13a441235c34f4f939c35490c0a8be61f00c53694d764aa131e0084
+    env:
+    - name: PAYMENT_POINTER
+      value: $sharafian.com
+  port: 8080
