@@ -13,6 +13,16 @@ A standard bootstrap app for React.
 
 A JavaScript Quake Server based on [quakejs](https://github.com/inolen/quakejs).
 
+To play, visit [http://www.quakejs.com/play](http://www.quakejs.com/play)
+
+1. Select `MULTIPLAYER`
+2. Click `SPECIFY` and enter:
+```
+Address: quake3-codius-pod.<codius-host-domain>
+Port: 443
+```
+3. Click `FIGHT`
+
 ## License
 
 Apache-2.0
