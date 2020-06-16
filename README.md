@@ -13,15 +13,6 @@ A standard bootstrap app for React.
 
 A JavaScript Quake Server based on [quakejs](https://github.com/inolen/quakejs).
 
-### host-list
-
-A pod that crawls the old codius peer list and displays the peers it finds.
-[Code can be viewed here](https://github.com/sharafian/host-list-pod).
-
-### spsp
-
-Codius contract SPSP example of receiving and sending money.
-
 ## License
 
 Apache-2.0
