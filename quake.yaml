@@ -6,4 +6,10 @@ spec:
   containers:
   - name: app
     image: feraltc/quakejs-codius@sha256:be48c9fc47ea5defd1d5f9a039c47b826a833c849c3e7e564e8ad216fae51632
+    readinessProbe:
+      httpGet:
+        path: /
+        port: 27960
+      failureThreshold: 10
+      periodSeconds: 1
   port: 27960

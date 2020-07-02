@@ -6,4 +6,10 @@ spec:
   containers:
   - name: app
     image: androswong418/example-pod-1@sha256:8933bced1637e7d3b08c4aa50b96a45aef0b63f504f595bb890f57253af68b11
+    readinessProbe:
+      httpGet:
+        path: /
+        port: 3000
+      failureThreshold: 10
+      periodSeconds: 1
   port: 3000
