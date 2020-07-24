@@ -1,7 +1,3 @@
-apiVersion: core.codius.org/v1alpha1
-kind: Service
-metadata:
-  name: my-codius-create-react-app
 spec:
   containers:
   - name: app

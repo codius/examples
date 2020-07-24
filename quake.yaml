@@ -1,7 +1,3 @@
-apiVersion: core.codius.org/v1alpha1
-kind: Service
-metadata:
-  name: quake3-codius-pod
 spec:
   containers:
   - name: app
