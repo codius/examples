@@ -1,10 +1,12 @@
-apiVersion: core.codius.org/v1alpha1
-kind: Service
-metadata:
-  name: nginx-codius-pod
 spec:
   containers:
   - name: app
     image: nginx@sha256:3e2ffcf0edca2a4e9b24ca442d227baea7b7f0e33ad654ef1eb806fbd9bedcf0
     command: ["nginx", "-g", "daemon off;"]
+    readinessProbe:
+      httpGet:
+        path: /
+        port: 80
+      failureThreshold: 10
+      periodSeconds: 1
   port: 80

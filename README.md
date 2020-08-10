@@ -1,5 +1,5 @@
 # Codius Examples
-> Example [Codius services](https://godoc.org/github.com/codius/codius-crd-operator/api/v1alpha1#Service)
+> Example [Codius services](https://godoc.org/github.com/codius/codius-operator/servers#Service)
 
 ### nginx
 
